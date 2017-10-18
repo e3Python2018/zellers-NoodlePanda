@@ -6,17 +6,19 @@
 # Get the user's birthday.
 
 # 1) Ask the user for the month of his birth as a number, store it in a temporary variable
-
+Month = input("what month were you born on")
 # 2) Set A to the month using the following conversion, with March having the value 1, April the
 # value 2, . . ., December the value 10, and January and February being
 # counted as months 11 and 12 of the preceding year (in which
 # case,subtract 1 from C)
-
+months = ["march","april","may","june","july","august","september","october","november","december","january","febuary"]
+if month = "may":
+    a = 3
 # 3) Ask the user for the day of his birth, store it in variable B
-
+b = input("what day were you born on")
 # 4) Ask the user for the year of his birth, store it in variable C
 # remember to subtract 1 as necessary
-
+Year = input("what year were you born on")
 # 5) If C is greater than 99, then set D (the century) equal to C / 100 (hint: use integer division)
 # Then set C equal to the year of the century (0-99) (hint: use modulo)
 
